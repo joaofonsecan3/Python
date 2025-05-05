@@ -1,3 +1,10 @@
 Nome = 'João'
 Idade = 36
 print(f'Olá Eu me chamo {Nome}  tenho {Idade} anos de idade  Muito Prazer.')
+
+
+limite_saque_diario = 1000
+# Em python não exite constantes imutaveis. Convencionou-se colocar delcarar as contantes em letras maiusculas.  
+ESTADOS_BRASILEIROS = {"SP", "RJ", "PE", "SE"}
+
+print(ESTADOS_BRASILEIROS)
