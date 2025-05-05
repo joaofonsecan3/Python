@@ -1,4 +1,4 @@
 # Python
 Repósitorio para estudos e Porjetos em Python
 
-Nesse repositório pretendo armazenar e versionar todas as etapas de construção dos meus projetos para o meu portifólio pessoal. 
+Nesse repositório pretendo versionar e manter todos os registros da minha trajetótria de aprendizagem. Como tambem irei registrar todas as etapas de construção dos meus projetos para portifólio pessoal. 
