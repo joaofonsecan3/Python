@@ -1,0 +1,3 @@
+Nome = 'João'
+Idade = 36
+print(f'Olá Eu me chamo {Nome}  tenho {Idade} anos de idade  Muito Prazer.')

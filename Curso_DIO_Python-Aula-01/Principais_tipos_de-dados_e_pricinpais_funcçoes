@@ -1,0 +1,51 @@
+# Tipos de dados em Python
+inteiro = 10  # Tipo inteiro
+decimal = 10.5  # Tipo float
+texto = "Olá, Mundo!"  # Tipo string
+booleano = True  # Tipo booleano
+lista = [1, 2, 3, 4, 5]  # Tipo lista
+tupla = (1, 2, 3)  # Tipo tupla
+conjunto = {1, 2, 3}  # Tipo set
+dicionario = {"nome": "João", "idade": 25}  # Tipo dicionário
+
+# Variáveis e constantes
+variavel_mutavel = "Eu posso mudar"
+variavel_mutavel = "Veja, eu mudei!"
+
+CONSTANTE_IMUTAVEL = "Não devo ser alterada!"  # Nome em maiúsculas indica uma constante (por convenção)
+
+# Conversão de tipos
+inteiro_para_float = float(inteiro)
+float_para_inteiro = int(decimal)
+string_para_inteiro = int("123")
+inteiro_para_string = str(inteiro)
+lista_para_tupla = tuple(lista)
+tupla_para_lista = list(tupla)
+
+# Funções em Python
+def saudacao(nome):
+    """Função que retorna uma saudação personalizada"""
+    return f"Olá, {nome}! Seja bem-vindo."
+
+def soma(a, b):
+    """Função que retorna a soma de dois números"""
+    return a + b
+
+def verificar_par(numero):
+    """Função que verifica se um número é par"""
+    return numero % 2 == 0
+
+# Chamadas de funções
+print(saudacao("João"))
+print(f"A soma de 5 + 3 é: {soma(5, 3)}")
+print(f"O número 4 é par? {verificar_par(4)}")
+
+
+# modo interativo
+dir()
+help()
+
+
+
+
+
